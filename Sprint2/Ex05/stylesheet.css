@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#texto {
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+}
+
+#texto:focus {
+    outline: none !important;
+    border:1px solid rgb(253, 146, 24);
+    /* box-shadow: 0 0 10px #719ECE; */
+}
+
+#enviar {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    margin-left: 10px;
+    background-color: rgb(117, 119, 118);
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(230, 230, 230);
+    transition-duration: 300ms;
+}
+
+#enviar:hover {
+    background-color: rgb(240, 240, 240);
+    color: rgb(49, 49, 49);
+    transition-duration: 300ms;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
